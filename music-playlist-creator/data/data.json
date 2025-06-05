@@ -1,0 +1,1146 @@
+[
+    {
+        "playlistID": 1,
+        "playlist_name": "Emails I Can't Send",
+        "playlist_author": "Sabrina Carpenter",
+        "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+        "songs": [
+            {
+                "songID": 1,
+                "song_name": "emails i can't send",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "1",
+                "duration_sec": "44",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 2,
+                "song_name": "vicious",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "2",
+                "duration_sec": "30",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 3,
+                "song_name": "read your mind",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "3",
+                "duration_sec": "28",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 4,
+                "song_name": "tornado warnings",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "3",
+                "duration_sec": "24",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 5,
+                "song_name": "because i liked a boy",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "3",
+                "duration_sec": "16",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 6,
+                "song_name": "already over",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "2",
+                "duration_sec": "51",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 7,
+                "song_name": "how many things",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "4",
+                "duration_sec": "04",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 8,
+                "song_name": "bet u wanna",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "3",
+                "duration_sec": "11",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 9,
+                "song_name": "nonsense",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "2",
+                "duration_sec": "44",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 10,
+                "song_name": "fast times",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "2",
+                "duration_sec": "55",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 11,
+                "song_name": "skinny dipping",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "2",
+                "duration_sec": "58",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 12,
+                "song_name": "bad for business",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "3",
+                "duration_sec": "08",
+                "song_author": "Sabrina Carpenter"
+            },
+            {
+                "songID": 13,
+                "song_name": "decode",
+                "song_album": "Emails I Can't Send",
+                "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
+                "duration_min": "3",
+                "duration_sec": "08",
+                "song_author": "Sabrina Carpenter"
+            }
+        ]
+    },
+    {
+        "playlistID": 2,
+        "playlist_name": "Anti",
+        "playlist_author": "Rihanna",
+        "playlist_art": "assets/img/albums/anti.jpg",
+        "songs": [
+            {
+                "songID": 1,
+                "song_name": "consideration (feat. sza)",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "2",
+                "duration_sec": "41",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 2,
+                "song_name": "james joint",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "1",
+                "duration_sec": "12",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 3,
+                "song_name": "kiss it better",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "4",
+                "duration_sec": "13",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 4,
+                "song_name": "work (feat. drake)",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "3",
+                "duration_sec": "39",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 5,
+                "song_name": "desperado",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "3",
+                "duration_sec": "06",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 6,
+                "song_name": "woo",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "3",
+                "duration_sec": "56",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 7,
+                "song_name": "needed me",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "3",
+                "duration_sec": "12",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 8,
+                "song_name": "yeah, i said it",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "2",
+                "duration_sec": "13",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 9,
+                "song_name": "same ol' mistakes",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "6",
+                "duration_sec": "37",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 10,
+                "song_name": "never ending",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "3",
+                "duration_sec": "23",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 11,
+                "song_name": "love on the brain",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "3",
+                "duration_sec": "44",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 12,
+                "song_name": "higher",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "2",
+                "duration_sec": "01",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 13,
+                "song_name": "close to you",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "3",
+                "duration_sec": "58",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 14,
+                "song_name": "goodnight gotham",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "1",
+                "duration_sec": "28",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 15,
+                "song_name": "pose [explicit]",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "2",
+                "duration_sec": "24",
+                "song_author": "Rihanna"
+            },
+            {
+                "songID": 16,
+                "song_name": "sex with me [explicit]",
+                "song_album": "Anti",
+                "playlist_art": "assets/img/albums/anti.jpg",
+                "duration_min": "3",
+                "duration_sec": "26",
+                "song_author": "Rihanna"
+            }
+        ]
+    },
+    {
+        "playlistID": 3,
+        "playlist_name": "Abbey Road",
+        "playlist_author": "The Beatles",
+        "playlist_art": "assets/img/albums/abbey_road.jpg",
+        "songs": [
+            {
+                "songID": 1,
+                "song_name": "come together",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "4",
+                "duration_sec": "20",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 2,
+                "song_name": "something",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "3",
+                "duration_sec": "03",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 3,
+                "song_name": "maxwell's silver hammer",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "3",
+                "duration_sec": "27",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 4,
+                "song_name": "oh! darling",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "3",
+                "duration_sec": "27",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 5,
+                "song_name": "octopus's garden",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "2",
+                "duration_sec": "51",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 6,
+                "song_name": "i want you (she's so heavy)",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "7",
+                "duration_sec": "47",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 7,
+                "song_name": "here comes the sun",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "3",
+                "duration_sec": "06",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 8,
+                "song_name": "because",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "2",
+                "duration_sec": "46",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 9,
+                "song_name": "you never give me your money",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "4",
+                "duration_sec": "02",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 10,
+                "song_name": "sun king",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "2",
+                "duration_sec": "26",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 11,
+                "song_name": "mean mr. mustard",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "1",
+                "duration_sec": "06",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 12,
+                "song_name": "polythene pam",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "1",
+                "duration_sec": "13",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 13,
+                "song_name": "she came in through the bathroom window",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "1",
+                "duration_sec": "58",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 14,
+                "song_name": "golden slumbers",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "1",
+                "duration_sec": "32",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 15,
+                "song_name": "carry that weight",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "1",
+                "duration_sec": "37",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 16,
+                "song_name": "the end",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "2",
+                "duration_sec": "20",
+                "song_author": "The Beatles"
+            },
+            {
+                "songID": 17,
+                "song_name": "her majesty",
+                "song_album": "Abbey Road",
+                "playlist_art": "assets/img/albums/abbey_road.jpg",
+                "duration_min": "0",
+                "duration_sec": "23",
+                "song_author": "The Beatles"
+            }
+        ]
+    },
+    {
+        "playlistID": 4,
+        "playlist_name": "Blond",
+        "playlist_author": "Frank Ocean",
+        "playlist_art": "assets/img/albums/blond.jpg",
+        "songs": [
+            {
+                "songID": 1,
+                "song_name": "nikes [explicit]",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "5",
+                "duration_sec": "14",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 2,
+                "song_name": "ivy [explicit]",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "4",
+                "duration_sec": "09",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 3,
+                "song_name": "pink + white",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "3",
+                "duration_sec": "05",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 4,
+                "song_name": "be yourself",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "1",
+                "duration_sec": "27",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 5,
+                "song_name": "solo",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "4",
+                "duration_sec": "17",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 6,
+                "song_name": "skyline to",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "3",
+                "duration_sec": "05",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 7,
+                "song_name": "self control",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "4",
+                "duration_sec": "10",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 8,
+                "song_name": "good guy",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "1",
+                "duration_sec": "07",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 9,
+                "song_name": "nights [explicit]",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "5",
+                "duration_sec": "07",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 10,
+                "song_name": "solo (reprise)",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "1",
+                "duration_sec": "19",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 11,
+                "song_name": "pretty sweet [explicit]",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "2",
+                "duration_sec": "38",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 12,
+                "song_name": "facebook story",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "1",
+                "duration_sec": "09",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 13,
+                "song_name": "close to you",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "1",
+                "duration_sec": "26",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 14,
+                "song_name": "white ferrari",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "4",
+                "duration_sec": "09",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 15,
+                "song_name": "seigfried",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "5",
+                "duration_sec": "35",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 16,
+                "song_name": "godspeed",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "2",
+                "duration_sec": "58",
+                "song_author": "Frank Ocean"
+            },
+            {
+                "songID": 17,
+                "song_name": "futura free",
+                "song_album": "Blond",
+                "playlist_art": "assets/img/albums/blond.jpg",
+                "duration_min": "9",
+                "duration_sec": "24",
+                "song_author": "Frank Ocean"
+            }
+        ]
+    },
+    {
+        "playlistID": 5,
+        "playlist_name": "Mr. Morale and the Big Steppers",
+        "playlist_author": "Kendrick Lamar",
+        "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+        "songs": [
+            {
+                "songID": 1,
+                "song_name": "united in grief",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "4",
+                "duration_sec": "16",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 2,
+                "song_name": "n95",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "3",
+                "duration_sec": "16",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 3,
+                "song_name": "worldwide steppers",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "3",
+                "duration_sec": "24",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 4,
+                "song_name": "die hard (feat. blxst & amanda reifer)",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "4",
+                "duration_sec": "00",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 5,
+                "song_name": "father time (feat. sampha)",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "3",
+                "duration_sec": "42",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 6,
+                "song_name": "rich (interlude)",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "1",
+                "duration_sec": "44",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 7,
+                "song_name": "rich spirit",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "3",
+                "duration_sec": "23",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 8,
+                "song_name": "we cry together (feat. taylour paige)",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "5",
+                "duration_sec": "42",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 9,
+                "song_name": "purple hearts (feat. summer walker & ghostface killah)",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "5",
+                "duration_sec": "30",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 10,
+                "song_name": "count me out",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "4",
+                "duration_sec": "44",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 11,
+                "song_name": "crown",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "4",
+                "duration_sec": "25",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 12,
+                "song_name": "silent hill (feat. kodak black)",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "3",
+                "duration_sec": "41",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 13,
+                "song_name": "savior (interlude)",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "2",
+                "duration_sec": "33",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 14,
+                "song_name": "savior (feat. baby keem & sampha)",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "3",
+                "duration_sec": "45",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 15,
+                "song_name": "auntie diaries",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "4",
+                "duration_sec": "42",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 16,
+                "song_name": "mr. morale",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "3",
+                "duration_sec": "31",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 17,
+                "song_name": "mother i sober (feat. beth gibbons of portishead)",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "6",
+                "duration_sec": "47",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 18,
+                "song_name": "mirror",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "4",
+                "duration_sec": "17",
+                "song_author": "Kendrick Lamar"
+            },
+            {
+                "songID": 19,
+                "song_name": "the heart part 5",
+                "song_album": "Mr. Morale and the Big Steppers",
+                "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
+                "duration_min": "5",
+                "duration_sec": "33",
+                "song_author": "Kendrick Lamar"
+            }
+        ]
+    },
+    {
+        "playlistID": 6,
+        "playlist_name": "Hit Me Hard And Soft",
+        "playlist_author": "Billie Eilish",
+        "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+        "songs": [
+            {
+                "songID": 1,
+                "song_name": "skinny",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "3",
+                "duration_sec": "40",
+                "song_author": "Billie Eilish"
+            },
+            {
+                "songID": 2,
+                "song_name": "lunch",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "2",
+                "duration_sec": "59",
+                "song_author": "Billie Eilish"
+            },
+            {
+                "songID": 3,
+                "song_name": "chihiro",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "5",
+                "duration_sec": "03",
+                "song_author": "Billie Eilish"
+            },
+            {
+                "songID": 4,
+                "song_name": "birds of a feather",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "3",
+                "duration_sec": "30",
+                "song_author": "Billie Eilish"
+            },
+            {
+                "songID": 5,
+                "song_name": "wildflower",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "4",
+                "duration_sec": "21",
+                "song_author": "Billie Eilish"
+            },
+            {
+                "songID": 6,
+                "song_name": "the greatest",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "4",
+                "duration_sec": "54",
+                "song_author": "Billie Eilish"
+            },
+            {
+                "songID": 7,
+                "song_name": "l'amour de ma vie",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "5",
+                "duration_sec": "34",
+                "song_author": "Billie Eilish"
+            },
+            {
+                "songID": 8,
+                "song_name": "the diner",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "3",
+                "duration_sec": "06",
+                "song_author": "Billie Eilish"
+            },
+            {
+                "songID": 9,
+                "song_name": "bittersuite",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "4",
+                "duration_sec": "58",
+                "song_author": "Billie Eilish"
+            },
+            {
+                "songID": 10,
+                "song_name": "blue",
+                "song_album": "Hit Me Hard and Soft",
+                "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
+                "duration_min": "5",
+                "duration_sec": "43",
+                "song_author": "Billie Eilish"
+            }
+        ]
+    },
+    {
+        "playlistID": 7,
+        "playlist_name": "Midnights",
+        "playlist_author": "Taylor Swift",
+        "playlist_art": "assets/img/albums/midnights.jpg",
+        "songs": [
+            {
+                "songID": 1,
+                "song_name": "lavender haze",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "3",
+                "duration_sec": "22",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 2,
+                "song_name": "maroon",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "3",
+                "duration_sec": "38",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 3,
+                "song_name": "anti-hero",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "3",
+                "duration_sec": "21",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 4,
+                "song_name": "snow on the beach (feat. lana del rey)",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "4",
+                "duration_sec": "16",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 5,
+                "song_name": "you’re on your own, kid",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "3",
+                "duration_sec": "14",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 6,
+                "song_name": "midnight rain",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "2",
+                "duration_sec": "55",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 7,
+                "song_name": "question...?",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "3",
+                "duration_sec": "31",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 8,
+                "song_name": "vigilante shit",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "2",
+                "duration_sec": "45",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 9,
+                "song_name": "bejeweled",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "3",
+                "duration_sec": "14",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 10,
+                "song_name": "labyrinth",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "4",
+                "duration_sec": "08",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 11,
+                "song_name": "karma",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "3",
+                "duration_sec": "25",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 12,
+                "song_name": "sweet nothing",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "3",
+                "duration_sec": "08",
+                "song_author": "Taylor Swift"
+            },
+            {
+                "songID": 13,
+                "song_name": "mastermind",
+                "song_album": "Midnights",
+                "playlist_art": "assets/img/albums/midnights.jpg",
+                "duration_min": "3",
+                "duration_sec": "11",
+                "song_author": "Taylor Swift"
+            }
+        ]
+    },
+    {
+        "playlistID": 8,
+        "playlist_name": "Nothing Was the Same",
+        "playlist_author": "Drake",
+        "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+        "songs": [
+            {
+                "songID": 1,
+                "song_name": "tuscan leather",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "6",
+                "duration_sec": "06",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 2,
+                "song_name": "furthest thing",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "4",
+                "duration_sec": "27",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 3,
+                "song_name": "started from the bottom",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "2",
+                "duration_sec": "54",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 4,
+                "song_name": "wu-tang forever",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "3",
+                "duration_sec": "38",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 5,
+                "song_name": "own it",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "4",
+                "duration_sec": "12",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 6,
+                "song_name": "worst behavior [explicit]",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "4",
+                "duration_sec": "30",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 7,
+                "song_name": "from time (feat. jhené aiko)",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "5",
+                "duration_sec": "22",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 8,
+                "song_name": "hold on, we’re going home (feat. majid jordan)",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "3",
+                "duration_sec": "47",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 9,
+                "song_name": "connect [explicit]",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "4",
+                "duration_sec": "56",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 10,
+                "song_name": "the language",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "3",
+                "duration_sec": "44",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 11,
+                "song_name": "305 to my city (feat. detail)",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "4",
+                "duration_sec": "16",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 12,
+                "song_name": "too much (feat. sampha)",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "4",
+                "duration_sec": "22",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 13,
+                "song_name": "pound cake / paris morton music 2 (feat. jay-z)",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "7",
+                "duration_sec": "14",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 14,
+                "song_name": "come thru",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "3",
+                "duration_sec": "56",
+                "song_author": "Drake"
+            },
+            {
+                "songID": 15,
+                "song_name": "all me",
+                "song_album": "Nothing Was the Same",
+                "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
+                "duration_min": "4",
+                "duration_sec": "31",
+                "song_author": "Drake"
+            }
+        ]
+    }
+]
