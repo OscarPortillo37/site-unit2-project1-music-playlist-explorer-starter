@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,6 +11,12 @@ body {
 
 p {
     margin: 0px;
+}
+
+/* Footer */
+#footer {
+    height: 3%;
+    background-color: darkgray;
 }
 
 /* Header and Navigation Bar */
@@ -22,7 +32,7 @@ p {
     align-self: center;
 }
 
-u1 {
+ul {
     list-style-type: none;
     margin: 3px;
     padding: 0;
@@ -36,8 +46,8 @@ li {
     border-radius: 10%;
 }
 
-#nav_tab:hover {
-    border: 1px solid cornflowerblue;
+.nav_tab:hover, .nav_tab:hover {
+    border: 2px solid navy;
     background-color: #B9Bff8;
 }
 
@@ -234,17 +244,61 @@ img {
 #featured {
     display: flex;
     flex-direction: row;
+    margin-top: 8%;
 }
 
 .featured_page_half {
+    height: 60vh;
     width: 50%;
-    margin: 5%;
+    margin: 1%;
+    border: 2px solid black;
 }
 
 #featured_playlist {
-    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-
-
+#featured_playlist_img {
+    width: 85%;
+}
+#featured_playlist_name {
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+/* TODO: Continue trying to fix this scrolling issue */
+#featured_songs {
+    height: 100%;
+    flex: 1;
+    overflow-y: auto;
+}
+.featured_song {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.featured_song_container {
+    border: 2px solid black;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.featured_song_img {
+    width: 20%
+}
+.featured_song_text {
+    margin-top: 1%;
+    margin-left: 1%
+}
+.featured_song_name {
+    font-size: 18px;
+    font-family: "Georgia", serif;    
+}
+.featured_song_author, .featured_song_album, .featured_song_duration {
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
 
