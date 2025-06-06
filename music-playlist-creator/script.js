@@ -457,13 +457,16 @@ function allLogic() {
     add_submit_btn.addEventListener('click', (event) => {
         let add_playlist_name_input = document.querySelector('#add_playlist_name_input');
         let add_playlist_author_input = document.querySelector('#add_playlist_author_input');
+        let add_playlist_img_input = document.querySelector('#add_playlist_img_input');
         // TODO: Collect playlist name & author
         // TODO: Add to the json
         added_playlist_json_arr = {
             "playlistID": new_playlistID++,
             "playlist_name": add_playlist_name_input.value,
             "playlist_author": add_playlist_author_input.value,
-            "playlist_art": "assets/img/playlist.png",
+            "playlist_art": add_playlist_img_input.value,
+            "like_cnt": 0,
+            "liked": false,
             "songs" : []
         }
         added_playlist_json_arr.songs = added_songs_json_arr;
