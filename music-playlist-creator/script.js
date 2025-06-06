@@ -475,6 +475,9 @@ function featuredLogic() {
 
 // TODO: edit the event listener
 document.addEventListener('DOMContentLoaded', () => {
+    if (window.location.pathname === '/' || window.location.pathname === '') {
+        window.location.replace('index.html');
+    }
     const url_path = window.location.pathname;
     if(firstLoad){
         fetch('data/data.json')
