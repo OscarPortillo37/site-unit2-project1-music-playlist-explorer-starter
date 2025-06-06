@@ -1,10 +1,12 @@
 /** 
  * Opening & Closing the Modal
 */
-let filter_text;
+let filter_text = '';
 let filter_func;
 let playlist_json;
+let last_edit_playlist_id;
 let firstLoad = true;
+let new_songID = 10000;
 
 function openModal(playlist_album_id) {
     const modal = document.getElementById("modal");
@@ -44,10 +46,51 @@ function closeModal() {
     modal.style.display = "none";
 }
 
+function openEditModal(playlist_album_id) {
+    last_edit_playlist_id = playlist_album_id;
+    const edit_modal = document.getElementById("edit_modal");
+    console.log(playlist_album_id);
+    edit_modal.style.display = "block";
+
+    let wasFound = false;
+    try{
+        for(const playlist of playlist_json) {
+            if(playlist.playlistID === playlist_album_id) {
+                wasFound = true;
+                let edit_modal_album_img = document.getElementById('edit_modal_album_img_internal');
+                edit_modal_album_img.src = playlist.playlist_art;
+                edit_modal_album_img.alt = `${modal_playlist_name} playlist cover`
+                let edit_playlist_name_input = document.getElementById('edit_playlist_name_input');
+                let edit_playlist_author_input = document.getElementById('edit_playlist_author_input');
+                edit_playlist_name_input.value =  playlist.playlist_name;
+                edit_playlist_author_input.value = playlist.playlist_author;
+                let edit_songs = document.getElementById('edit_songs');
+                for(const song of playlist.songs) {
+                    appendEditModalSong(edit_songs, song);
+                }
+            }
+        }
+        if(!wasFound) throw new Error('Couldn\'t find playlist ID used to populate modal');
+    }
+    catch(error){
+        console.error('openModal() Error:', error);
+    }
+}
+
+function closeEditModal() {
+    const edit_modal = document.getElementById("edit_modal");
+    let modal_song_info = document.getElementById('edit_modal_album_text_info');
+    edit_modal.style.display = "none";
+}
+
 window.onclick = function(event) {
     const modal = document.getElementById("modal");
     if (event.target == modal) {
         closeModal();
+    }
+    const edit_modal = document.getElementById("edit_modal");
+    if(event.target == edit_modal) {
+        closeEditModal();
     }
 }
 
@@ -131,6 +174,49 @@ function createModalSongInfo(song_obj) {
     `;
     return songContainer;
 }
+
+// function appendEditModalSong(edit_songs, song) {
+//     const editSong = document.createElement('section');
+//     editSong.className = 'edit_song';
+//     editSong.setAttribute('data-song-id', Number(song.songID));
+//     editSong.innerHTML = `
+//         <p class="song_head">Song</p>
+//         <div class="edit_song_name">
+//             <p>Song Name</p>
+//             <form class="edit_song_name_form">
+//                 <input type="text" class="edit_song_name_input" placeholder="Type your search…" aria-label="Search">
+//             </form>                                    
+//         </div>
+//         <div class="edit_song_author">
+//             <p>Song Author</p>
+//             <form class="edit_song_author_form">
+//                 <input type="text" class="edit_song_author_input" placeholder="Type your search…" aria-label="Search">
+//             </form>                                      
+//         </div>
+//         <div class="edit_song_album">
+//             <p>Song Album</p>
+//             <form class="edit_song_album_form">
+//                 <input type="text" class="edit_song_album_input" placeholder="Type your search…" aria-label="Search">
+//             </form>                                      
+//         </div>
+//         <div class="edit_song_duration">
+//             <p>Song Duration (s)</p>
+//             <form class="edit_song_album_form">
+//                 <input type="text" class="edit_song_album_input" placeholder="Type your search…" aria-label="Search">
+//             </form>                                       
+//         </div>   
+//     `;
+//     edit_songs.appendChild(editSong);
+//     const songID_text= String(song.songID);
+//     curr_edit_song_name = document.querySelector(`.edit_song[data-song-id="${songID_text}"] .edit_song_name_input`)
+//     curr_edit_song_name.value = song.song_name;
+//     curr_edit_song_author = document.querySelector(`.edit_song[data-song-id="${songID_text}"] .edit_song_author_input`)
+//     curr_edit_song_author.value = song.song_author;
+//     curr_edit_song_album = document.querySelector(`.edit_song[data-song-id="${songID_text}"] .edit_song_album_input`)
+//     curr_edit_song_album.value = song.song_album;
+//     curr_edit_song_duration = document.querySelector(`.edit_song[data-song-id="${songID_text}"] .edit_song_duration_input`)
+//     curr_edit_song_duration.value = (Number(song.duration_min)*60 + Number(song.duration_sec)) toString();
+// }
 
 /* Parsing Featured Page */
 function editFeaturedPlaylist(playlist_obj) {
@@ -247,6 +333,15 @@ function playlistEventListeners() {
         event.stopPropagation();
         }, true);
     });
+
+    const edit_btns = document.getElementsByClassName('edit_btn');
+    Array.from(edit_btns).forEach((edit_btn) => {
+        edit_btn.addEventListener('click', () => {
+            const playlist_card_id = Number(edit_btn.parentElement.parentElement.getAttribute('data-playlist-id'));
+            openEditModal(playlist_card_id);
+            event.stopPropagation();
+        }, true);
+    });
 }
 
 
@@ -267,6 +362,59 @@ function allLogic() {
     console.log(songs_arr_temp);
         songs.innerHTML = '';
         songs_arr_temp.forEach(function(shuffled_song) {songs.appendChild(shuffled_song)});
+    });
+
+    // Add modal event listeners for submit & add song
+    let edit_submit_btn = document.querySelector('#edit_submit_btn');
+    edit_submit_btn.addEventListener('click', () => {
+        let edit_playlist_name_input = document.querySelector('#edit_playlist_name_input');
+        let edit_playlist_author_input = document.querySelector('#edit_playlist_author_input');
+        let new_playlist_name = edit_playlist_name_input.value;
+        let new_playlist_author = edit_playlist_author_input.value;
+        try{
+            let foundPlaylist = false;
+            let playlistInd;
+            for(let i = 0; i < playlist_json.length; i++){
+                if(playlist_json[i].playlistID === last_edit_playlist_id) {
+                    playlistInd = i;
+                    foundPlaylist = true;
+                }
+            }
+            if(!foundPlaylist) throw new Error('Failed to find playlist in json consistent w/ pressed playlist\'s playlist ID');
+            playlist_json[playlistInd].playlist_name = new_playlist_name;
+            playlist_json[playlistInd].playlist_author = new_playlist_author;
+            // Re-apply filtering
+            closeEditModal();
+            let filtered_playlists_json = playlist_json.filter(playlist => isNameSearched(playlist, filter_text));
+            populatePlaylists(filtered_playlists_json);
+        } catch(error) {
+            console.error('Error: ', error);
+        }
+    });
+    let add_song_btn = document.querySelector('#add_song_btn');
+    add_song_btn.addEventListener('click', () => {
+        let new_song_name = document.querySelector('#edit_song_name_input').value;
+        let new_song_author = document.querySelector('#edit_song_author_input').value;
+        let new_song_album = document.querySelector('#edit_song_album_input').value;
+        let new_song_duration = Number(document.querySelector('#edit_song_duration_input').value);
+        // TODO: Add duration here
+        let playlistInd;
+        for(let i = 0; i < playlist_json.length; i++){
+            if(playlist_json[i].playlistID === last_edit_playlist_id) {
+                playlistInd = i;
+                foundPlaylist = true;
+            }
+        }
+        let new_song_img = playlist_json[playlistInd].playlist_art;
+        playlist_json[playlistInd].songs.push({
+            "songID": new_songID++,
+            "song_name": new_song_name,
+            "song_album": new_song_album,
+            "playlist_art": new_song_img,
+            "duration_min": Math.floor(new_song_duration / 60),
+            "duration_sec": new_song_duration % 60,
+            "song_author": new_song_author
+        });
     });
 
     // Add search event listeners

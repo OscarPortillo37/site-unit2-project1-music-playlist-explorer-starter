@@ -2,11 +2,21 @@ html, body {
     height: 100%;
 }
 
+main {
+    flex: 1; /* take up all available space */
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 p {
@@ -22,6 +32,7 @@ label {
 #footer {
     height: 3%;
     background-color: darkgray;
+    padding: 1rem;
 }
 
 /* Header and Navigation Bar */
@@ -148,7 +159,7 @@ img {
 /**********************************************************************************************/
 /**********************************************************************************************/
 /* Modal Content */
-#modal {
+#modal, #edit_modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -157,7 +168,7 @@ img {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4)
+    background-color: rgba(0,0,0,0.4);
 }
 
 .modal_content {
@@ -188,6 +199,7 @@ button:hover, button:active {
 /* Modal Album */
 .modal_content {
     border: 4px solid black;
+    box-shadow: 10px 10px 10px;
 }
 #modal_album_info {
     display: flex;
@@ -315,3 +327,30 @@ button:hover, button:active {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
 }
 
+
+
+
+/*******************************************************************************************
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+********************************************************************************************
+*******************************************************************************************/
+/* Edit Playlist Page CSS */
+#songs_section {
+    font-size: 16px;
+}
+#edit_songs {
+    font-size: 14px;
+    margin-left: 2%;
+}
+.song_head {
+    font-weight: bold;
+}
+.edit_song_name, .edit_song_author, .edit_song_album, .edit_song_duration {
+    margin-left: 2%;
+}
