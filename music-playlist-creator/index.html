@@ -14,13 +14,20 @@
         <header id="header">
             <h1>Music Playlist Explorer</h1>
             <button type="button" id="add_playlist_btn">Add Playlist</button>
+            <label for="sort_type_dropdown">Choose a sort type:</label>
+            <select name="sort_type_dropdown" id="sort_type_dropdown">
+                <option value="none">None</option>
+                <option value="alphabetically">Alphabetically</option>
+                <option value="like_cnt_desc">Like Count (Desc.)</option>
+                <option value="date_added_chron">Data Added (Chron.)</option>
+            </select>
             <form id="search_form">
-                <input type="text" id="search_input" placeholder="Type your search…" aria-label="Search">
                 <label for="search_type_dropdown">Choose a search type:</label>
                 <select name="search_type_dropdown" id="search_type_dropdown">
                     <option value="name">Name</option>
                     <option value="author">Author</option>
                 </select>
+                <input type="text" id="search_input" placeholder="Type your search…" aria-label="Search">
                 <button type="submit" id="submit_search">Search</button>
                 <button type="reset" id="clear_search">Clear</button>
             </form>

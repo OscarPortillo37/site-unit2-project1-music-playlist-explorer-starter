@@ -48,7 +48,7 @@ label {
     width: 120px;
 }
 #search_form {
-    margin: 5%
+    margin: 1%
 }
 #nav_bar {
     margin-left: auto;
@@ -63,11 +63,15 @@ ul {
 }
 
 li {
-    display: inline;
     margin: 3px;
     padding: 3px;
     font-size: 16px;
     border-radius: 10%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
 }
 
 .nav_tab:hover, .nav_tab:hover {
