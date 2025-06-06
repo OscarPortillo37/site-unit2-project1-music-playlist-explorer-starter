@@ -6,6 +6,7 @@
     "playlist_art": "assets/img/albums/emails_i_cant_send.jpg",
     "like_cnt": 342,
     "liked": false,
+    "date_added": 1,
     "songs": [
       {
         "songID": 1,
@@ -133,6 +134,7 @@
     "playlist_art": "assets/img/albums/anti.jpg",
     "like_cnt": 876,
     "liked": false,
+    "date_added": 1,
     "songs": [
       {
         "songID": 1,
@@ -287,6 +289,7 @@
     "playlist_art": "assets/img/albums/abbey_road.jpg",
     "like_cnt": 129,
     "liked": false,
+    "date_added": 1,
     "songs": [
       {
         "songID": 1,
@@ -450,6 +453,7 @@
     "playlist_art": "assets/img/albums/blond.jpg",
     "like_cnt": 543,
     "liked": false,
+    "date_added": 1,
     "songs": [
       {
         "songID": 1,
@@ -613,6 +617,7 @@
     "playlist_art": "assets/img/albums/mr_morale_and_the_big_steppers.jpg",
     "like_cnt": 234,
     "liked": false,
+    "date_added": 1,
     "songs": [
       {
         "songID": 1,
@@ -794,6 +799,7 @@
     "playlist_art": "assets/img/albums/hit_me_hard_and_soft.jpg",
     "like_cnt": 657,
     "liked": false,
+    "date_added": 1,
     "songs": [
       {
         "songID": 1,
@@ -894,6 +900,7 @@
     "playlist_art": "assets/img/albums/midnights.jpg",
     "like_cnt": 910,
     "liked": false,
+    "date_added": 1,
     "songs": [
       {
         "songID": 1,
@@ -1021,6 +1028,7 @@
     "playlist_art": "assets/img/albums/nothing_was_the_same.jpg",
     "like_cnt": 0,
     "liked": false,
+    "date_added": 1,
     "songs": [
       {
         "songID": 1,

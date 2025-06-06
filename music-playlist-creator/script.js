@@ -8,6 +8,7 @@ let last_edit_playlist_id;
 let firstLoad = true;
 let new_songID = 10000;
 let new_playlistID = 10000;
+let date_added = 2;
 
 function openModal(playlist_album_id) {
     const modal = document.getElementById("modal");
@@ -305,6 +306,24 @@ function isAuthorSearched(playlist, search_text) {
     else return false;
 }
 
+/* Sort Logic */
+function sortPlaylists(playlist_json) {
+    if(event.target.value === 'alphabetically') {
+        playlist_json.sort((a, b) => a.playlist_name.localeCompare(b.playlist_name))
+    }
+    else if(event.target.value === 'like_cnt_desc') {
+        playlist_json.sort((a, b) => b.like_cnt - a.like_cnt);
+    }
+    else if(event.target.value === 'date_added_chron') {
+        playlist_json.sort((a, b) => {
+            if (a.date_added === b.date_added) {
+                return a.playlist_name.localeCompare(b.playlist_name); // Secondary sort
+            }
+            return a.value - b.value; // Primary sort
+        });
+    }
+}
+
 
 function playlistEventListeners() {
     // Add modal event listener for identificaiton of clicked playlist id
@@ -444,7 +463,7 @@ function allLogic() {
             "playlist_art": new_song_img,
             "duration_min": Math.floor(new_song_duration / 60),
             "duration_sec": new_song_duration % 60,
-            "song_author": new_song_author
+            "song_author": new_song_author,
         });
     });
 
@@ -467,11 +486,17 @@ function allLogic() {
             "playlist_art": add_playlist_img_input.value,
             "like_cnt": 0,
             "liked": false,
-            "songs" : []
+            "songs" : [],
+            "date_added": date_added++,
         }
         added_playlist_json_arr.songs = added_songs_json_arr;
         playlist_json.push(added_playlist_json_arr);
         closeAddModal();
+        // TODO: Continue here
+        let sort_type_dropdown = document.getElementById('sort_type_dropdown');
+        if(sort_type_dropdown.value != 'none') {
+            sortPlaylists(playlist_json);
+        }
         let filtered_playlists_json = playlist_json.filter(playlist => isNameSearched(playlist, filter_text));
         populatePlaylists(filtered_playlists_json);
     });
@@ -506,6 +531,15 @@ function allLogic() {
         event.preventDefault();
         openAddModal();
         event.stopPropagation();
+    });
+
+    // Add sort playlist button event listener
+    let sort_type_dropdown = document.getElementById('sort_type_dropdown');
+    sort_type_dropdown.addEventListener('change', (event) => {
+        sortPlaylists(playlist_json);
+        // TODO: Re-display
+        let filtered_playlists_json = playlist_json.filter(playlist => isNameSearched(playlist, filter_text));
+        populatePlaylists(filtered_playlists_json);
     });
 
     // Add search event listeners
