@@ -492,6 +492,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 else if(url_path.endsWith('featured.html')){
                     featuredLogic();
                 }
+                else {
+                    allLogic();
+                }
                 firstLoad = false;
             })
             .catch(error =>{
