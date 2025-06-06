@@ -13,6 +13,7 @@
     <div class="wrapper">
         <header id="header">
             <h1>Music Playlist Explorer</h1>
+            <button type="button" id="add_playlist_btn">Add Playlist</button>
             <form id="search_form">
                 <input type="text" id="search_input" placeholder="Type your search…" aria-label="Search">
                 <label for="search_type_dropdown">Choose a search type:</label>
@@ -21,7 +22,7 @@
                     <option value="author">Author</option>
                 </select>
                 <button type="submit" id="submit_search">Search</button>
-                <button type="submit" id="clear_search">Clear</button>
+                <button type="reset" id="clear_search">Clear</button>
             </form>
 
             <nav id="nav_bar">
@@ -135,7 +136,7 @@
                             <p id="songs_section">Edit Songs: </p>
                             <section id="edit_songs">
                                 <section class="edit_song" data-song-id="">
-                                    <button id="add_song_btn">Add Song</button>
+                                    <button id="edit_song_btn">Add Song</button>
                                     <div class="edit_song_name">
                                         <p>Song Name</p>
                                         <form class="edit_song_name_form">
@@ -168,58 +169,55 @@
             </article>
 
             <!--TODO: Continue here-->
-            <article id="edit_modal">
+            <article id="add_modal">
                 <section class="modal_content">
-                    <span class="close" onclick="closeEditModal()">&times;</span>
-                    <div id="edit_modal_album_info">
-                        <div id="edit_modal_album_img">
-                            <img src="assets/img/playlist.png" alt="" id="edit_modal_album_img_internal">
-                        </div>
-                        <button type="submit" id="edit_submit_btn">Submit</button>
-                        <div id="edit_modal_album_text_info">
-                            <div id="edit_playlist_name">
-                                <p id="edit_modal_playlist_name">Playlist Name</p>
-                                <form id="edit_playlist_name_form">
-                                    <input type="text" id="edit_playlist_name_input" placeholder="Type your search…" aria-label="Search">
+                    <span class="close" onclick="closeAddModal()">&times;</span>
+                    <div id="add_modal_album_info">
+                        <div id="add_modal_album_text_info">
+                            <div id="add_playlist_name">
+                                <p id="add_modal_playlist_name">Playlist Name</p>
+                                <form id="add_playlist_name_form">
+                                    <input type="text" id="add_playlist_name_input" placeholder="Type your search…" aria-label="Search">
                                 </form>
                             </div>
-                            <div id="edit_playlist_author">
-                                <p id="edit_modal_playlist_author">Playlist Author</p>
-                                <form id="edit_playlist_creator_name">
-                                    <input type="text" id="edit_playlist_author_input" placeholder="Type your search…" aria-label="Search">
+                            <div id="add_playlist_author">
+                                <p id="add_modal_playlist_author">Playlist Author</p>
+                                <form id="add_playlist_creator_name">
+                                    <input type="text" id="add_playlist_author_input" placeholder="Type your search…" aria-label="Search">
                                 </form>
                             </div>
                             <p id="songs_section">Edit Songs: </p>
-                            <section id="edit_songs">
-                                <section class="edit_song" data-song-id="">
-                                    <button id="add_song_btn">Add Song</button>
-                                    <div class="edit_song_name">
+                            <section id="add_songs">
+                                <section class="add_song" data-song-id="">
+                                    <button id="add_add_song_btn">Add Song</button>
+                                    <div class="add_song_name">
                                         <p>Song Name</p>
-                                        <form class="edit_song_name_form">
-                                            <input type="text" id="edit_song_name_input" placeholder="Type your search…" aria-label="Search">
+                                        <form class="add_song_name_form">
+                                            <input type="text" id="add_song_name_input" placeholder="Type your search…" aria-label="Search">
                                         </form>                                    
                                     </div>
-                                    <div class="edit_song_author">
+                                    <div class="add_song_author">
                                         <p>Song Author</p>
-                                        <form class="edit_song_author_form">
-                                            <input type="text" id="edit_song_author_input" placeholder="Type your search…" aria-label="Search">
+                                        <form class="add_song_author_form">
+                                            <input type="text" id="add_song_author_input" placeholder="Type your search…" aria-label="Search">
                                         </form>                                      
                                     </div>
-                                    <div class="edit_song_album">
+                                    <div class="add_song_album">
                                         <p>Song Album</p>
-                                        <form class="edit_song_album_form">
-                                            <input type="text" id="edit_song_album_input" placeholder="Type your search…" aria-label="Search">
+                                        <form class="add_song_album_form">
+                                            <input type="text" id="add_song_album_input" placeholder="Type your search…" aria-label="Search">
                                         </form>                                      
                                     </div>
-                                    <div class="edit_song_duration">
+                                    <div class="add_song_duration">
                                         <p>Song Duration</p>
-                                        <form class="edit_song_duration_form">
-                                            <input type="text" id="edit_song_duration_input" placeholder="Type your search…" aria-label="Search">
+                                        <form class="add_song_duration_form">
+                                            <input type="text" id="add_song_duration_input" placeholder="Type your search…" aria-label="Search">
                                         </form>                                       
                                     </div>
                                 </section>
                             </section>
                         </div>
+                        <button type="button" id="add_submit_btn">Submit</button>
                     </div>
                 </section>
             </article>
