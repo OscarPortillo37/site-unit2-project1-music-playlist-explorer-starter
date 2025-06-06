@@ -1,28 +1,61 @@
-<main> 
-    <!-- Your main content here -->
-    <p id="missing_playlists" style="display: none; text-align: center; font-size: 30px; margin: 20px auto;">No playlists added.</p>
-    <article id="featured">
-        <section class="featured_page_half">
-            <section id="featured_playlist">
-                <img src="assets/img/playlist.png" alt="" id="featured_playlist_img">
-                <div id="featured_playlist_name_container">
-                    <p id="featured_playlist_name">Playlist Name</p>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Music Playlist Explorer</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Music Playlist Explorer</h1>
+        <nav id="nav_bar">
+            <!-- <form action="index.html" id="all_form">
+                <input type="submit" value="All">
+            </form>
+            <form action="featured.html" id="featured_form">
+                <input type="submit" value ="Featured">
+            </form> -->
+            <ul>
+                <li class="nav_tab" id="featured_tab"><a href="featured.html" style="text-decoration: none; color: inherit;">Featured</a></li>
+                <li class="nav_tab" id="all_tab"><a href="index.html" style="text-decoration: none; color: inherit;">All</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <!-- Your main content here -->
+        <p id="missing_playlists" style="display: none; text-align: center; font-size: 30px; margin: 20px auto;">No playlists added.</p>
+        <article id="featured">
+            <section class="featured_page_half">
+                <section id="featured_playlist">
+                    <img src="assets/img/playlist.png" alt="" id="featured_playlist_img">
+                    <div id="featured_playlist_name_container">
+                        <p id="featured_playlist_name">Playlist Name</p>
+                    </div>
+                </section>
             </section>
-        </section>
-        <section class="featured_page_half">
-            <section id="featured_songs">
-                <!-- <section class="featured_song">
-                    <section class="featured_song_container">
-                        <img src="assets/img/song.png" alt="" class="featured_song_img">
-                        <div class="featured_song_text">
-                            <p class="featured_song_name">Song Name</p>
-                            <p class="featured_song_author">Song Author</p>
-                            <p class="featured_song_album">Song Album</p>
-                            <p class="featured_song_duration">00:00</p>
-                        </div>
-                    </section>
-                </section> -->
-            </section>
-    </article>
-</main>
+            <section class="featured_page_half">
+                <section id="featured_songs">
+                    <!-- <section class="featured_song">
+                        <section class="featured_song_container">
+                            <img src="assets/img/song.png" alt="" class="featured_song_img">
+                            <div class="featured_song_text">
+                                <p class="featured_song_name">Song Name</p>
+                                <p class="featured_song_author">Song Author</p>
+                                <p class="featured_song_album">Song Album</p>
+                                <p class="featured_song_duration">00:00</p>
+                            </div>
+                        </section>
+                    </section> -->
+                </section>
+        </article>
+
+        <footer id="footer"></footer>
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>

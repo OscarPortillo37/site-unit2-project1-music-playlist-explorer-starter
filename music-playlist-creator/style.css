@@ -13,6 +13,11 @@ p {
     margin: 0px;
 }
 
+label {
+    color: black;
+    font-size: 14px;
+}
+
 /* Footer */
 #footer {
     height: 3%;
@@ -23,16 +28,20 @@ p {
 #header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
     color: darkslategray;
     background-color: darkgray;
 }
-
+#search_form {
+    margin-left: 5%;
+}
 #nav_bar {
-    align-self: center;
+    margin-left: auto;
 }
 
 ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 3px;
     padding: 0;
@@ -40,9 +49,9 @@ ul {
 
 li {
     display: inline;
-    font-size: 16px;
     margin: 3px;
     padding: 3px;
+    font-size: 16px;
     border-radius: 10%;
 }
 
@@ -172,7 +181,7 @@ img {
     cursor: pointer;
 }
 
-#shuffle_btn:hover, #shuffle_btn:active {
+button:hover, button:active {
     background-color: salmon
 }
 
@@ -251,7 +260,6 @@ img {
     height: 60vh;
     width: 50%;
     margin: 1%;
-    border: 2px solid black;
 }
 
 #featured_playlist {
@@ -261,7 +269,11 @@ img {
     align-items: center;
 }
 #featured_playlist_img {
-    width: 85%;
+    width: 90%;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
 }
 #featured_playlist_name {
     margin-top: 3%;
@@ -274,6 +286,7 @@ img {
     height: 100%;
     flex: 1;
     overflow-y: auto;
+    border: 2px solid black;
 }
 .featured_song {
     display: flex;
