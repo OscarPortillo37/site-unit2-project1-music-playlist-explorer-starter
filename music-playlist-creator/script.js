@@ -258,7 +258,7 @@ function sortPlaylists(playlist_json) {
     }
 }
 
-
+// Adds click/hover/click handling for each playlist card, like icon, delete, and edit buttons
 function playlistEventListeners() {
     // Add modal event listener for identificaiton of clicked playlist id
     document.querySelectorAll('.playlist_card').forEach(playlist_card => 
