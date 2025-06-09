@@ -1,57 +1,36 @@
+/* Structure Element Selectors (General) */
 html, body {
     height: 100%;
 }
 
 main {
-    flex: 1; /* take up all available space */
+    flex: 1; /* Take up all available space */
 }
 
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f8f8f8;
 }
 
-.wrapper {
+.wrapper { /* Not technically element selector but used only for footer formatting */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-p {
-    margin: 0px;
-}
-
-label {
-    color: black;
-    font-size: 14px;
-}
-
-/* Footer */
-#footer {
+footer {
     height: 3%;
     background-color: darkgray;
     padding: 1rem;
 }
 
-/* Header and Navigation Bar */
-#header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: darkslategray;
-    background-color: darkgray;
-    gap: 1%;
-}
-#add_playlist_btn {
-    width: 120px;
-}
-#search_form {
-    margin: 1%
-}
-#nav_bar {
-    margin-left: auto;
+
+
+
+/* Other Element Selectors */
+label {
+    color: black;
+    font-size: 14px;
 }
 
 ul {
@@ -59,7 +38,6 @@ ul {
     flex-direction: row;
     list-style-type: none;
     margin: 3px;
-    padding: 0;
 }
 
 li {
@@ -74,31 +52,40 @@ form {
     flex-direction: row;
 }
 
-.nav_tab:hover, .nav_tab:hover {
-    border: 2px solid navy;
-    background-color: #B9Bff8;
-}
-
-/* Image Formatting */
 img {
     margin-top: 5px;
     width: 95%;
 }
 
-.album_img {
+
+
+
+
+/* Header and Navigation Bar */
+#header {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    color: darkslategray;
+    background-color: darkgray;
+    gap: 1%;
+}
+
+#add_playlist_btn {
+    width: 120px;
+}
+
+.nav_tab:hover{
+    border: 2px solid navy;
+    background-color: #B9Bff8;
+}
+
+.album_img {
+    display: flex;
     justify-content: center;
 }
 
-/* TODO: Add in formatting for the nav_bar 
-    --> nav_tab class
-    --> Change color when highlighted
-    --> Form box around it when using 
-*/
-
-
-/* Playlist cards formatting */
+/* Playlist Cards */
 #playlist_cards {
     display: flex;
     flex-wrap: wrap;
@@ -108,11 +95,6 @@ img {
 
 .playlist_card_container {
     width: 25%;
-    height: 20%;
-}
-
-#missing_playlists {
-    
 }
 
 .playlist_card {
@@ -128,12 +110,14 @@ img {
     margin-top: 7px;
     margin-left: 5px;
 }
+
 .playlist_card_name {
     height: 2.25em;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 16px;
     font-family: "Georgia", serif;
+
 }
 .playlist_card_author {
     margin-top: 4px;
@@ -166,6 +150,7 @@ img {
 /**********************************************************************************************/
 /**********************************************************************************************/
 /**********************************************************************************************/
+
 /* Modal Content */
 #modal, #edit_modal, #add_modal {
     display: none;
@@ -178,11 +163,11 @@ img {
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
 }
+
 .modal_content {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
     width: 70%;
 }
 
@@ -208,21 +193,26 @@ button:hover, button:active {
     border: 4px solid black;
     box-shadow: 10px 10px 10px;
 }
+
 #modal_album_info {
     display: flex;
     flex-direction: row;
 }
-#modal_album_img {
+
+#modal_album_img, #edit_modal_album_img {
     width: 30%;
 }
+
 #modal_album_text_info {
     margin-top: 5%
 }
+
 #modal_playlist_name {
     margin-bottom: 2%;
     font-size: 34px;
     font-family: "Georgia", serif;
 }
+
 #modal_creator_name {
     font-size: 26px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -236,27 +226,27 @@ button:hover, button:active {
     border: 2px solid gray;
     border-radius: 2%;
 }
+
 .song_img {
     width: 100px;
 }
+
 .modal_song_title {
     font-size: 18px;
     font-family: "Georgia", serif;
 }
+
 .modal_artist_name {
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
 }
+
 .duration {
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: auto;
     margin-right: 3%;
 }
-
-
-
-
 
 /*******************************************************************************************
 ********************************************************************************************
@@ -268,6 +258,7 @@ button:hover, button:active {
 ********************************************************************************************
 ********************************************************************************************
 *******************************************************************************************/
+
 /* Featured Page CSS */
 #featured {
     display: flex;
@@ -300,7 +291,7 @@ button:hover, button:active {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
-/* TODO: Continue trying to fix this scrolling issue */
+
 #featured_songs {
     height: 100%;
     flex: 1;
@@ -334,9 +325,6 @@ button:hover, button:active {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
 }
 
-
-
-
 /*******************************************************************************************
 ********************************************************************************************
 ********************************************************************************************
@@ -347,7 +335,8 @@ button:hover, button:active {
 ********************************************************************************************
 ********************************************************************************************
 *******************************************************************************************/
-/* Edit Playlist Page CSS */
+
+/* Edit Playlist Modal Extra CSS */
 #songs_section {
     font-size: 16px;
 }

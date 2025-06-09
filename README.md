@@ -48,14 +48,14 @@ Deployed Application: [Music Playlist Explorer Deployed Site](https://site-unit2
     - [x] If previously liked:
       - [x] The like count on the playlist tile should decrease by 1.
       - [x] There should be visual feedback (such as the heart turning a different color) to show that the playlist has been unliked by the user.
-    - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please film yourself liking and unliking:
-      - [ ] a playlist with a like count of 0
-      - [ ] a playlist with a non-zero like count
+    - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please film yourself liking and unliking:
+      - [x] a playlist with a like count of 0
+      - [x] a playlist with a non-zero like count
 
 - [x] **Shuffle Songs**
   - [x] Enable users to shuffle the songs within a playlist using a shuffle button in the playlist's detail modal.
   - [x] When the shuffle button is clicked, the playlist's songs should display in a different order.
-  - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself shuffling the same playlist more than once. 
+  - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself shuffling the same playlist more than once. 
   
 - [x] **Featured Page**
   - [x] Application includes a dedicated page that randomly selects and displays a playlist, showing the playlist’s:
@@ -68,7 +68,7 @@ Deployed Application: [Music Playlist Explorer Deployed Site](https://site-unit2
   - [x] When the page is refreshed or reloaded, a new random playlist is displayed
     - For example, navigating to the all playlists page and then back to the featured playlist page should result in a new random playlist being displayed
     - Note that because your algorithm will not be truly random, it is possible that the same playlist will feature twice in a row. 
-    - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself refreshing the featured page more than once. 
+    - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself refreshing the featured page more than once. 
   - [x] Application includes a navigation bar or some other mechanism such that users can navigate to the page with all playlists from the featured page and vice versa without using the browser's back and forward buttons. 
 
 #### STRETCH FEATURES
@@ -83,7 +83,7 @@ Deployed Application: [Music Playlist Explorer Deployed Site](https://site-unit2
       - [x] Title
       - [x] Artist
   - [x] The resulting playlist should display in the grid view.
-  - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please show yourself adding at least two songs to the playlist. 
+  - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please show yourself adding at least two songs to the playlist. 
 
 - [x] **Edit Existing Playlists**
   - [x] Enable users to modify the details of existing playlists.
@@ -93,9 +93,9 @@ Deployed Application: [Music Playlist Explorer Deployed Site](https://site-unit2
     - [x] Author
     - [x] Songs
   - [x] The playlist grid view and playlist detail modal should update to display any changes (see Required Features, Criterion 1 & 2).
-  - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please show yourself:
-    - [ ] Editing all of a playlist's features (name, creator, AND songs)
-    - [ ] Editing some of a playlist's features (name, creator, OR songs) 
+  - [x] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please show yourself:
+    - [x] Editing all of a playlist's features (name, creator, AND songs)
+    - [x] Editing some of a playlist's features (name, creator, OR songs) 
 
 - [x] **Delete Playlists**
   - [x] Add a delete button to each playlist tile within the grid view.
@@ -118,21 +118,19 @@ Deployed Application: [Music Playlist Explorer Deployed Site](https://site-unit2
     - [ ] **Optional:** If the Add Playlist, Edit Existing Playlist, or Delete Playlist stretch features were implemented:
       - [ ] If users can add a playlist, added playlists should be included in search results.
       - [ ] If users can edit a playlist, search results should reflect the latest edits to each playlist.
-      - [ ] If users can delete a playlist, deleted playlists should no longer be included in search results.
+      - [x] If users can delete a playlist, deleted playlists should no longer be included in search results.
       - **Note:** You will not be graded on the implementation of this optional subfeature to keep your grade of this stretch feature independent of your implementation of other stretch features. However, we highly suggest including this in your implementation to model realistic behavior of real applications. 
 
-- [ ] **Sorting Options**
-  - [ ] Implement a drop-down or button options that allow users to sort the playlist by:
-    - [ ] Name (A-Z alphabetically)
-    - [ ] Number of likes (descending order)
-    - [ ] Date added (most recent to oldest, chronologically)
-  - [ ] Selecting a sort option should result in a reordering based on the selected sort while maintaining a grid view.
+- [x] **Sorting Options**
+  - [x] Implement a drop-down or button options that allow users to sort the playlist by:
+    - [x] Name (A-Z alphabetically)
+    - [x] Number of likes (descending order)
+    - [x] Date added (most recent to oldest, chronologically)
+  - [x] Selecting a sort option should result in a reordering based on the selected sort while maintaining a grid view.
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+[Demo Video](https://www.loom.com/share/62e5eeac66a24a59adf40a5c44ecaf62?sid=73ae9079-a48e-4fc0-b4da-e9b4671fd47d)
 
 ### Reflection
 
@@ -149,7 +147,7 @@ would've made the Edit Playlist featured and the featured pages more aesthetical
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+While I didn't demo in class today, doing the demo video was enjoyable. I was able to showcase all the functionality and cover all the VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS. I really liked some of the transitions that some of peers used to show focus, and I really liked some of the color designs and header designs (including icons rather than something like a "Delete" button). It was awesome to see how everyone developed their own product with its own functionality and design.
 
 ### Open-source libraries used
 
